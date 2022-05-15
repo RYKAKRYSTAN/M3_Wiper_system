@@ -105,6 +105,19 @@ Used in automobiles
 
 ## How :
 It is activated by switching the wiper button.
+
+# TEST PLAN AND OUTPUTS
+
+## Test Plans
+
+| **Test ID** | **Description** | **Input** | **Output** | **Status** |
+| --- | --- | --- | --- | --- |
+| TID\_01 | Button Pressed | input = 2 sec | Red LED ON  | PASS |
+| TID\_02 | Button Pressed | input = 1 sec | Blue LED ON  | PASS |
+| TID\_03 | Button Pressed | input = 0.25 sec | Green LED ON  | PASS |
+| TID\_04 | Button Pressed | input = 0.125 sec | Orange LED ON  | PASS |
+| TID\_05 | Button Pressed | input = 2 sec| Red LED OFF  | PASS |
+
 ![WhatsApp Image 2022-05-16 at 12 04 51 AM](https://user-images.githubusercontent.com/101564345/168491294-9287161a-95db-4139-91fd-cf6cc488604c.jpeg)
 ![WhatsApp Image 2022-05-16 at 12 04 52 AM](https://user-images.githubusercontent.com/101564345/168490303-096c37ff-ef99-4230-8487-d8bd9eb494dc.jpeg)
 ## output:
